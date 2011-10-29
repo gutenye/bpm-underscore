@@ -1,0 +1,18 @@
+{
+  "name": "underscore",
+  "summary": "JavaScript's utility _ belt",
+  "description": "JavaScript's utility _ belt",
+  "homepage": "http://github.com/GutenYe/bpm-underscore",
+  "author": "Guten",
+  "version": "1.2.1.001",
+  "directories": {
+    "lib": "lib"
+  },
+  "bpm:build": {
+    "bpm_libs.js": {
+      "files": [
+        "lib"
+      ]
+    }
+	}
+}
