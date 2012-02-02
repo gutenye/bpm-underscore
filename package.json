@@ -4,7 +4,7 @@
   "description": "JavaScript's utility _ belt",
   "homepage": "http://github.com/GutenYe/bpm-underscore",
   "author": "Guten",
-  "version": "1.2.1.001",
+  "version": "1.3.1",
   "directories": {
     "lib": "lib"
   },
@@ -13,6 +13,15 @@
       "files": [
         "lib"
       ]
+    },
+    "underscore/bpm_tests.js": {
+      "files": [
+        "test"
+      ]
     }
-	}
+  },
+  "dependencies:development": {
+    "jquery": ">= 0",
+    "qunit": ">= 0"
+  }
 }
